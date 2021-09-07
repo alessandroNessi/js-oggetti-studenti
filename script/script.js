@@ -8,6 +8,8 @@ function printStudents(){
         document.getElementById("userList").innerHTML+=`<li>${element.eta}</li><hr>`;
     });
 }
+
+/*saluta antonioh */
 function saluta(){
     return `Ciao, il mio nome è ${this.cognome} ${this.nome} e ho ${this.eta} anni.`;
 }
